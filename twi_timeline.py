@@ -5,6 +5,9 @@
 import json
 
 # twi 認証-----------------------------------
+# 使用する際は twi_config.py というファイルを作成し、
+# 各種APIの認証情報を入力してください
+
 import twi_config
 from requests_oauthlib import OAuth1Session
 
